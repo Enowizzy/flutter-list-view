@@ -7,6 +7,7 @@ void main() {
     home: Scaffold(
       appBar: AppBar(
         title: const Text('List Views'),
+        centerTitle: true,
       ),
       body: const List(),
     ),
