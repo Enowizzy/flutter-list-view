@@ -14,6 +14,7 @@ void main() {
       ),
       body: const List(),
       floatingActionButton: FloatingActionButton(
+        backgroundColor: Colors.indigo,
         onPressed: () {
           print('Button clicked');
         },
