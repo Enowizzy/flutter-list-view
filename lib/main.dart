@@ -5,7 +5,7 @@ void main() {
   runApp(const MaterialApp(
     title: "Exploring List Views",
     home: Scaffold(
-        body: List(),
+      body: List(),
     ),
   ));
 }
