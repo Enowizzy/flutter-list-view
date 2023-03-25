@@ -3,7 +3,7 @@ import 'list_view.dart';
 
 void main() {
   runApp( MaterialApp(
-    title: "Exploring List Views",
+    debugShowCheckedModeBanner: false,
     home: Scaffold(
       appBar: AppBar(
         title: const Text('List Views'),
