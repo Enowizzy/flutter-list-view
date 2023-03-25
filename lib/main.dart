@@ -8,6 +8,7 @@ void main() {
       appBar: AppBar(
         title: const Text('List Views'),
         centerTitle: true,
+        backgroundColor: Colors.indigo,
       ),
       body: const List(),
     ),
