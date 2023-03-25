@@ -8,7 +8,7 @@ class List extends StatelessWidget {
       children: const <Widget>[
         ListTile(
           leading: Icon(Icons.landscape),
-          subtitle: Text("Beautiful Landscape view"),
+          subtitle: Text("Beautiful Landscape"),
           trailing: Icon(Icons.wb_sunny),
         ),
         ListTile(
