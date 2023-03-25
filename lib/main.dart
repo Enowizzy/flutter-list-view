@@ -2,10 +2,13 @@ import 'package:flutter/material.dart';
 import 'list_view.dart';
 
 void main() {
-  runApp(const MaterialApp(
+  runApp( MaterialApp(
     title: "Exploring List Views",
     home: Scaffold(
-      body: List(),
+      appBar: AppBar(
+        title: const Text('List Views'),
+      ),
+      body: const List(),
     ),
   ));
 }
