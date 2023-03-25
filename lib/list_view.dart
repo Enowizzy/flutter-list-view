@@ -12,12 +12,12 @@ class List extends StatelessWidget {
 
   Widget getListView() {
     var listView = ListView(
-      children:  <Widget>[
-         Padding(
+      children: <Widget>[
+        Padding(
           padding: const EdgeInsets.symmetric(vertical: 5.0, horizontal: 5.0),
           child: Card(
             child: ListTile(
-              onTap: (){
+              onTap: () {
                 print('JEEDIEx');
               },
               leading: const Icon(Icons.landscape),
@@ -27,11 +27,11 @@ class List extends StatelessWidget {
             ),
           ),
         ),
-         Padding(
+        Padding(
           padding: const EdgeInsets.symmetric(vertical: 5.0, horizontal: 5.0),
           child: Card(
             child: ListTile(
-              onTap: (){
+              onTap: () {
                 print('JEEDIEx');
               },
               leading: const Icon(Icons.laptop_chromebook),
@@ -41,11 +41,11 @@ class List extends StatelessWidget {
             ),
           ),
         ),
-         Padding(
+        Padding(
           padding: const EdgeInsets.symmetric(vertical: 5.0, horizontal: 5.0),
           child: Card(
             child: ListTile(
-              onTap: (){
+              onTap: () {
                 print('JEEDIEx');
               },
               leading: const Icon(Icons.phone_android),
@@ -55,11 +55,11 @@ class List extends StatelessWidget {
             ),
           ),
         ),
-         Padding(
+        Padding(
           padding: const EdgeInsets.symmetric(vertical: 5.0, horizontal: 5.0),
           child: Card(
             child: ListTile(
-              onTap: (){
+              onTap: () {
                 print('JEEDIEx');
               },
               leading: const Icon(Icons.tablet_android),
@@ -73,7 +73,7 @@ class List extends StatelessWidget {
           padding: const EdgeInsets.symmetric(vertical: 5.0, horizontal: 5.0),
           child: Card(
             child: ListTile(
-              onTap: (){
+              onTap: () {
                 print('JEEDIEx');
               },
               leading: const Icon(Icons.desktop_mac_outlined),
@@ -82,7 +82,7 @@ class List extends StatelessWidget {
               trailing: const Icon(Icons.desktop_mac_outlined),
             ),
           ),
-        )
+        ),
       ],
     );
     return listView;

@@ -1,8 +1,10 @@
+// ignore_for_file: avoid_print
+
 import 'package:flutter/material.dart';
 import 'list_view.dart';
 
 void main() {
-  runApp( MaterialApp(
+  runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
     home: Scaffold(
       appBar: AppBar(
@@ -11,6 +13,13 @@ void main() {
         backgroundColor: Colors.indigo,
       ),
       body: const List(),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          print('Button clicked');
+        },
+        tooltip: 'Increment',
+        child: const Icon(Icons.add),
+      ),
     ),
   ));
 }
