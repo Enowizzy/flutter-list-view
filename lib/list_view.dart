@@ -28,6 +28,18 @@ class List extends StatelessWidget {
           title: Text('Android Phone'),
           subtitle: Text("Amazing Phone"),
           trailing: Icon(Icons.phone_android),
+        ),
+        ListTile(
+          leading: Icon(Icons.tablet_android),
+          title: Text('Tablet Phone'),
+          subtitle: Text("Great Tablet"),
+          trailing: Icon(Icons.phone_android),
+        ),
+        ListTile(
+          leading: Icon(Icons.desktop_mac_outlined),
+          title: Text('Monitor'),
+          subtitle: Text("Beautiful Monitor"),
+          trailing: Icon(Icons.desktop_mac_outlined),
         )
       ],
     );
