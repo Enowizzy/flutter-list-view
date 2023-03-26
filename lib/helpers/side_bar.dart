@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_list_tile_view/controllers/list_builder.dart';
+import 'package:flutter_list_tile_view/main.dart';
 
 class SideBar extends StatelessWidget {
   const SideBar({
@@ -25,8 +26,8 @@ class SideBar extends StatelessWidget {
           ),
           InkWell(
             onTap: () {
-              Navigator.of(context).pushNamedAndRemoveUntil(
-                  '/', (Route<dynamic> route) => false);
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => const HomePage()));
             },
             child: const ListTile(
               title: Text('Home Page'),

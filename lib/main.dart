@@ -19,7 +19,7 @@ void main() {
         ],
       ),
       drawer: const SideBar(),
-      body: const List(),
+      body: const HomePage(),
       floatingActionButton: FloatingActionButton(
         backgroundColor: Colors.indigo,
         onPressed: () {
@@ -29,4 +29,15 @@ void main() {
       ),
     ),
   ));
+}
+
+class HomePage extends StatelessWidget {
+  const HomePage({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return const List();
+  }
 }
