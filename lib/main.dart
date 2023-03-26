@@ -19,6 +19,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     // return const List();
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
           appBar: AppBar(
             title: const Text('Homepage'),
