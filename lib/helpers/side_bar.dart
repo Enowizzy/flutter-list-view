@@ -25,8 +25,8 @@ class SideBar extends StatelessWidget {
           ),
           InkWell(
             onTap: () {
-              //  Navigator.push(context,
-              //     MaterialPageRoute(builder: (context) => const ListBuilder()));
+              Navigator.of(context).pushNamedAndRemoveUntil(
+                  '/', (Route<dynamic> route) => false);
             },
             child: const ListTile(
               title: Text('Home Page'),
